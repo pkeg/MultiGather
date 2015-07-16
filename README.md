@@ -11,7 +11,7 @@ If there is demand for compatibility with another patch, an update may be develo
 ### How Do I Install MultiGather?
 1. Click "Download" at the top to download MultiGather.zip
 2. Unzip the downloaded file to a location on your computer. You should have a folder called MultiGather with two files inside: `MultiGather.lua` and `MultiGather.toc`.
-3. Copy the MultiGather folder into your WoW Addons folder (/World of Warcraft/Interface/Addons/)
+3. Copy the MultiGather folder into your WoW Addons folder (`/World of Warcraft/Interface/Addons/`)
 4. Run World of Warcraft and log in to your account.
 5. At the character screen, click the Addons button in the bottom left and make sure MultiGather is checked. If you are not using World of Warcraft patch 3.3.5a, make sure you check "Load out of date addons".
 
