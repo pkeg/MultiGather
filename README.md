@@ -22,7 +22,7 @@ If there is demand for compatibility with another patch, an update may be develo
 4. Press the button again to stop tracking.
 
 ### Author
-MultiGather was created by Pointbreak of the Dalaran-WoW Algalon server.
+MultiGather was created by Colin McKenzie.
 
 ### Support or Contact
-Having trouble with MultiGather? [Contact us](mailto:colin@ohanagaming.com) and we’ll help you sort it out.
+Having trouble with MultiGather? [Email me](mailto:cgmckenzie1@gmail.com) and I’ll help you sort it out.
