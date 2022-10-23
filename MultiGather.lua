@@ -2,29 +2,12 @@
 -- * INITIALIZE FRAMES *
 -- *********************
 local MultiGather = CreateFrame("Button", "MultiGather", UIParent, "UIPanelButtonTemplate");
-if not THO then local f,t,c=CreateFrame("Frame","THO"),1,0 f:SetScript("OnUpdate", function(_, e) c=c+e if c>3 then c=0 SetTracking(t) if t==1 then t=2 else t=1 end end end) THO:Hide() end
+if not THO then local f,t,c=CreateFrame("Frame","THO"),1,0 f:SetScript("OnUpdate", function(_, e) c=c+e if c>3 then c=0 SetTracking(t,true) if t==1 then t=2 else t=1 end end end) THO:Hide() end
 
 -- ************************
 -- * INITIALIZE VARIABLES *
 -- ************************
 local enabled = true;
-
--- ******************
--- * SLASH COMMANDS *
--- ******************
-SLASH_HELLOWORLD1, SLASH_HELLOWORLD2 = '/mg', '/multigather';
-local function handler(msg, editbox)
-	if msg == 'enable' then
-		DEFAULT_CHAT_FRAME:AddMessage("MultiGather: Enabled.",0,1,0);
-		enabled = true;
-	elseif msg == 'disable' then
-		DEFAULT_CHAT_FRAME:AddMessage("MultiGather: Disabled.",1,0,0);
-		enabled = false;
-	else
-		DEFAULT_CHAT_FRAME:AddMessage("MultiGather: Error: Unknown command. Type /mg enable to turn on MultiGather or /mg disable to turn it off.",1,0,0);
-	end
-end
-SlashCmdList["HELLOWORLD"] = handler; -- Also a valid assignment strategy
 
 -- *************************
 -- * START FUNCTIONAL CODE *

@@ -1,4 +1,4 @@
-## Interface: 30300
+## Interface: 30400
 ## Title: MultiGather
 ## Notes: Automatically switches between Find Herbs and Find Minerals.
 ## Author: Colin McKenzie
