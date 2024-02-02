@@ -21,8 +21,5 @@ If there is demand for compatibility with another patch, an update may be develo
 3. Press the Start Tracking button start tracking Herbs/Minerals. There will be a 3 second delay and then the tracking will start.
 4. Press the button again to stop tracking.
 
-### Author
-MultiGather was created by Colin McKenzie.
-
 ### Support or Contact
 Having trouble with MultiGather? [Email me](mailto:cgmckenzie1@gmail.com) and I’ll help you sort it out.
